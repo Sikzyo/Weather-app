@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --color-slate-1: #fcfcfd;
+
+  --font-manrope: "Manrope Variable", sans-serif;
+  --font-sora: "Sora Variable", sans-serif;
+}
