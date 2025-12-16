@@ -1,8 +1,17 @@
+import NoWeather from "../components/noWeather.jsx";
+
 export default function App() {
   return (
     <>
-      <h1>Hello, World!</h1>
-      <p>This is a test</p>
+      <header className="flex">
+        <h1 className="font-manrope font-bold text-3xl">Climas</h1>
+      </header>
+      <main className="grid grow place-items-center">
+        <NoWeather />
+      </main>
+      <footer className="flex">
+        <p>Barra de búsqueda</p>
+      </footer>
     </>
   );
 }
