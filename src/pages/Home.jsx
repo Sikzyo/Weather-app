@@ -1,10 +1,10 @@
-import NoWeather from "../components/noWeather.jsx";
+import NoWeather from "../components/NoWeather.jsx";
 
 export default function App() {
   return (
     <>
       <header className="flex">
-        <h1 className="font-manrope font-bold text-3xl">Climas</h1>
+        <h1 className="font-manrope text-3xl font-bold">Climas</h1>
       </header>
       <main className="grid grow place-items-center">
         <NoWeather />
