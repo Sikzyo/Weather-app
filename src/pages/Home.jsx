@@ -1,4 +1,4 @@
-import NoWeather from "../components/NoWeather.jsx";
+import NoWeather from "../components/ui/NoWeather.jsx";
 
 export default function App() {
   return (
